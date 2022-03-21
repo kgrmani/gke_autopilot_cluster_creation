@@ -18,7 +18,7 @@ module "gcp-network" {
   source  = "terraform-google-modules/network/google"
   version = ">= 4.0.1, < 5.0.0"
 
-  project_id   = "rmk-demo"
+  project_id   = "rmk-demo-344812"
   network_name = local.network_name
 
   subnets = [

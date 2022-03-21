@@ -38,7 +38,7 @@ provider "kubernetes" {
 
 module "gke" {
   source                          = "../modules/beta-autopilot-public-cluster/"
-  project_id                      = "rmk-demo"
+  project_id                      = "rmk-demo-344812"
   name                            = "${local.cluster_type}-prod-cluster"
   regional                        = true
   region                          = "europe-west1"

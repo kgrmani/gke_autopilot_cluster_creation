@@ -33,7 +33,7 @@ cluster_ca_certificate = base64decode(module.gke.ca_certificate)
  */
 module "gke-1" {
 source = "../modules/beta-autopilot-public-cluster/"
-project_id = "rmk-demo"
+project_id = "rmk-demo-344812"
 name = "${local.cluster_type}-staging-cluster"
 regional = true
 region = "europe-west1"
